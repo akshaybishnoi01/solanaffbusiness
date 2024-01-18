@@ -223,6 +223,36 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.w-806 {
+    max-width: 806px;
+}
+
+.discover-m {
+    color: #FFF;
+
+    /* Button */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bg-discover {
+    display: inline-flex;
+    padding: 15px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--red, #F4241E);
+    border: 2px solid #F4241E;
+}
+
+.bg-discover:hover {
+    background-color: #FFF;
+    color: #F4241E;
+}
+
 
 
 /* Media queries - Responsive timeline on screens less than 786px wide */
@@ -279,7 +309,7 @@ nav ul li a:hover {
         align-items: center;
         justify-content: center;
         position: fixed;
-        transition: all 1s linear;
+        transition: all 0.5s linear;
         z-index: 10;
     }
 
@@ -300,7 +330,7 @@ nav ul li a:hover {
         width: 100%;
         background: #F4241E;
         height: 4px;
-        transition: all 1s linear;
+        transition: all 0.5s linear;
     }
 
     .change .bar1 {
@@ -331,6 +361,10 @@ nav ul li a:hover {
 
     div#myor2 {
         order: 2;
+    }
+
+    .w-806 {
+        max-width: 100%;
     }
 
 }
